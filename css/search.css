@@ -1,0 +1,123 @@
+.search__title{
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 125%;
+    text-align: center;
+    color: #000;
+    margin-top: 100px;
+}
+.search__inf{
+    border: 1px solid #c5c5c5;
+    border-radius: 100px;
+    width: 650px;
+    height: 60px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    text-align:center;
+    color: #000;
+    margin: 14px 17px;
+    background: #f8f9fa;
+}
+.button__item{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #000;
+    border: 1px solid #c5c5c5;
+    border-radius: 200px;
+    padding: 12px 22px 13px 22px;
+    background: #fff;
+    margin: 7px;
+    justify-content: center;
+}
+
+
+.search__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search__wrap{
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid black; 
+    border-radius: 100px;
+    padding:15px 476px 16px 17px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    background: #f8f9fa;
+    transition: 1s;
+    transition:  1s;
+}
+.search__button__list{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 650px;
+    margin-top: 20px;
+    padding:13px 22px;
+    gap: 7px;
+    justify-content: center;
+}
+.search__form{
+    border: none;
+    outline: 0;
+    background: #f8f9fa;
+}
+.search__wrap:hover{
+    background-color: aqua;
+    border: 0s;
+}
+.search__form:hover{
+    background: aqua;
+}
+@media(max-width:900px){
+    .search__title{
+        font-size: 30px;
+}
+.search__wrap{
+    border-radius: 140px;
+    padding:10px 300px 10px 10px;
+}
+.button__item{
+    border-radius: 200px;
+    padding: 8px 18px 9px 18px;
+}
+}
+@media(max-width:570px){
+    .search__wrap{
+        border-radius: 140px;
+        padding:10px 200px 10px 10px;
+    }
+
+}
+@media(max-width:480px){
+    .search__wrap{
+        border-radius: 140px;
+        padding:10px 100px 10px 10px;
+    }
+
+}
+@media(max-width:360px){
+    .search__wrap{
+        border-radius: 140px;
+        padding:10px 50px 10px 10px;
+    }
+    .button__item{
+        border-radius: 200px;
+        padding: 8px 10px 9px 10px;
+    }
+}
+@media(max-width:309px){
+    .search__wrap{
+        border-radius: 140px;
+        padding:10px 20px 10px 10px;
+    }
+    .search__title{
+        font-size: 28px;
+    }
+}

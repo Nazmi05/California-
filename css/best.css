@@ -1,0 +1,176 @@
+.best__title-main{
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 125%;
+    text-align: center;
+    color: #000;
+    margin-top: 100px;
+}
+.best__description-main{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 129%;
+    color: #000;}
+.best__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.best__description{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 129%;
+    text-align: center;
+    color: #000;
+    margin-top: 30px;
+}
+.best__title{
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 125%;
+    text-align: center;
+    color: #000;
+}
+.best__btn{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    text-transform: capitalize;
+    text-align: center;
+    color: #000;
+    width: 190px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 30px;
+    background: #f8f9fa;
+}
+.img__best{
+    margin-top: 20px;
+}
+.best__content{
+    border-radius: 16px;
+    width: 413px;
+    height: 453px;
+    background: #f8f9fa;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.best__body{
+    display: flex;
+    gap: 20px;
+}
+@media(max-width:1200px){
+    .best__btn{
+        font-size: 14px;
+    }
+    .img__best{
+        width: 200px;
+    }
+    .best__content{
+        margin-top: 20px; 
+        margin-right:20px;
+        margin-bottom:  20px;
+        margin-left: 20px;
+    }
+}
+@media(max-width:800px){
+    .best__title{
+        font-size: 22px;
+    }
+    .best__description{
+        font-size: 10px;
+    }
+    .best__btn{
+        width: 140px;
+        height: 30px;
+    }
+    .best__body{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 220px;
+    }
+    .best__content{
+        border-radius: 30px;
+        width: 300px;
+        height: 350px;
+    }
+}
+
+@media(max-width:750px){
+    .best__body{
+        margin-left: 200px;
+    }
+}
+@media(max-width:730px){
+    .best__body{
+        margin-left: 180px;
+    }
+}
+@media(max-width:700px){
+    .best__body{
+        margin-left: 160px;
+    }
+}
+
+@media(max-width:620px){
+    .best__body{
+        margin-left: 140px;
+    }
+}
+@media(max-width:590px){
+    .best__body{
+        margin-left: 120px;
+    }
+}
+@media(max-width:550px){
+    .best__title-main{
+        font-size: 35px;
+    }
+}
+@media(max-width:525px){
+    .best__body{
+        margin-left: 100px;
+    }
+}
+@media(max-width:500px){
+    .best__body{
+        margin-left: 80px;
+    }
+}
+@media(max-width:460px){
+    .best__title-main{
+        font-size: 28px;
+    }
+    .best__body{
+        margin-left: 60px;
+    }
+}
+@media(max-width:420px){
+    .best__description-main{
+        margin-right: 12px;
+        margin-left: 12px;
+    }  
+    .best__body{
+        margin-left: 40px;
+    }
+}
+@media(max-width:390px){
+    .best__body{
+        margin-left: 20px;
+    }
+    .best__title-main{
+        font-size: 23px;
+    }
+}
+@media(max-width:300px){
+    .best__body{
+        margin-left: 0px;
+    }
+}

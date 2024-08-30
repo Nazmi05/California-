@@ -1,0 +1,58 @@
+.header{
+    margin-top: 30px;
+}
+.header__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.header__list{
+    display:flex;
+    align-items: center;
+    gap:34px;
+    list-style:none;
+}
+.header__icons{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.header__item{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: black;
+}
+.burger__menu img{
+    height: 30px;
+    width: 35px;
+    display: none;
+    
+}
+@media (max-width:767px) {
+    .header__list{
+        display: none;
+    }
+    .header__icons{
+        display: none;  
+    }
+    .burger__menu img{
+        display: block;
+    }
+    .header__content{
+        padding: 0px 20px 0px 20px;
+    }
+}
+@media (max-width:1115px) {
+    .header__content {
+        padding: 0px 20px 0px 20px;
+    }
+}
+   
+
+
+
+
+    

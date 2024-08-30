@@ -1,0 +1,439 @@
+.shop{
+    margin-top: 75px;
+}
+.shop__title{
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 125%;
+    text-align: center;
+    color: #000;
+    margin-top: 75px;
+}
+.shop__description{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+    margin-top: 13px;
+}
+.shop__body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.shop__column{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    row-gap: 16px;
+}
+    
+.shop__row{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 30px;
+    width: 50%;
+}
+.frame__one{
+    border-radius: 32px;
+    width: 639px;
+    height: 472px;
+    box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+    margin-top: 100px;
+    padding:0;
+    display: inline-block;
+   display: flex;
+   flex-direction: column;
+   box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+}
+.laptop__img{
+    padding: 0px 97px 0px 42px;
+}
+.laptop__description{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 128%;
+    text-align: right;
+    color: #000;  
+    margin-right: 20px;
+}
+.laptop__title{
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: right;
+    color: #000;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+.frame__two{
+    width: 639px;
+    height: 270px;
+    box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+    margin-top: 70px;
+    padding:0;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    border-radius: 32px;
+    box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);      
+    }
+.frame__two__text{
+    display: flex;
+    flex-direction: column;
+}
+    
+.watch__img{
+   margin: 0; 
+}
+.watch__description{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 128%;
+    text-align: right;
+    color: #000;
+    margin: 0px 42px 0px 120px;
+    
+}
+.watch__title{
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: right;
+    color: #000;
+    flex-wrap: wrap;
+    
+}
+.frame__three{
+    border-radius: 32px;
+    width: 312px;
+    height: 792px;
+    box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.phone__img{
+    margin-top: 115px;
+}
+.phone__description{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 128%;
+    text-align: right;
+    color: #000;
+    margin-top: 40px;
+}
+   
+.phone__title{
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: right;
+    color: #000;
+    text-align: center;
+}
+.frame__four{
+    border-radius: 32px;
+    width: 312px;
+    height: 792px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+}
+.tablet__img{
+    margin-top: 40px;
+}
+
+.tablet__description{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+    margin-top: 115px;
+}
+.tablet__title{
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+}
+@media(max-width:1100px){
+    .shop__body{
+        margin-left: 100px;;
+    }
+    .shop__title{
+        font-size: 30px;
+    }
+    .shop__description{
+        font-size: 13px;
+    }
+.frame__one {
+        width: 500px;
+        height: 350px;
+    }
+.laptop__description{
+    font-size: 10px;
+}
+.laptop__title{
+    font-size: 25px;
+}
+.frame__two{
+    width: 500px;
+    height: 270px;
+}
+.watch__description{
+    font-size: 10px;
+    margin-left: 0%;
+}
+.watch__title{
+    font-size: 25px;   
+}
+.frame__three{
+    width: 200px;
+    height: 700px;
+}
+.frame__three img{
+    width: 200px;
+}
+.phone__description{
+    font-size: 10px;
+}
+.phone__title{
+    font-size: 25px;
+}
+.frame__four{
+    width: 200px;
+    height: 700px;
+}
+.frame__four img{
+    width: 200px;
+}
+.tablet__description{
+    font-size: 10px;
+}
+.tablet__title{
+    font-size: 25px;
+}
+}
+@media(max-width:1095px){
+        .frame__one{
+            max-height:270px;
+            max-width: 400px;
+        }
+        .laptop__img{
+            max-height: 230px;
+            max-width: 300px;
+        }
+        .laptop__title{
+            font-size: 20px;
+        }
+        .frame__two{
+            max-height:210px;
+            max-width: 400px;
+        }
+        .watch__img{
+            max-height: 230px;
+            max-width: 300px;
+        }
+        .watch__title{
+            font-size: 20px;
+        }
+        .frame__three{
+            max-height: 500px;
+        }
+        .frame__four{
+            max-height: 500px;
+        }
+        .shop__body{
+            display: flex;
+            flex-wrap: wrap;
+        }
+ }
+ @media(max-width:620px){
+    .shop__body{
+        margin-left: 0px;
+    }
+ }
+
+@media(max-width:780px){
+.shop__title{
+    font-size: 22px;
+}
+.shop__description{
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.shop__column{
+   margin-left: 0px;
+   margin-right: 200px;
+}
+.shop__row{
+    margin-left: 0px;
+    margin-right: 130px;
+}
+}
+@media(max-width:580px){
+    .shop__description{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .frame__one{
+        max-height:180px;
+        max-width: 300px;
+    }
+    .laptop__title{
+        font-size: 18px;
+    }
+    .frame__two{
+        max-height:170px;
+        max-width:320px;
+    }
+    .watch__img{
+        max-height: 180px;
+        max-width: 240px;
+    }
+    .watch__title{
+        font-size: 18px;
+    }
+    .frame__three{
+        max-height: 340px;
+        max-width: 200px;
+    }
+    .phone__img{
+        max-height: 200px ;
+        margin-top: 19px;
+        max-width: 160px;
+    }
+    .phone__title{
+        font-size: 18px;
+    }
+    
+    .frame__four{
+        max-height: 340px;
+        max-width: 200px;
+    }
+    .tablet__img{
+        max-height: 200px ;
+        margin-top: 19px;
+        max-width: 160px;
+    }
+    .tablet__title{
+        font-size: 18px;
+    }
+    .tablet__description{
+        margin-top: 40px;
+    }
+}
+@media(max-width:450px){
+    .shop__column{
+        margin-left: 150px;
+    }
+    .shop__row{
+        margin-top: 40px;
+    }
+    .frame__two{
+        margin-top: 30px;
+    }
+    .frame__one{
+        max-height:160px;
+        max-width: 260px;
+    }
+    .laptop__title{
+        font-size: 18px;
+    }
+    .frame__two{
+        max-height:140px;
+        max-width:260px;
+    }
+    .watch__img{
+        max-height: 140px;
+        max-width: 180px;
+    }
+    .watch__title{
+        font-size: 18px;
+    }
+    .frame__three{
+        max-height: 300px;
+        max-width: 180px;
+    }
+    .phone__img{
+        max-height: 200px ;
+        margin-top: 19px;
+        max-width: 140px;
+    }
+    .phone__title{
+        font-size: 18px;
+    }
+    
+    .frame__four{
+        max-height: 300px;
+        max-width: 180px;
+    }
+    .tablet__img{
+        max-height: 200px ;
+        margin-top: 19px;
+        max-width: 140px;
+    }
+    .tablet__title{
+        font-size: 18px;
+    }
+    .tablet__description{
+        margin-top: 40px;
+    }
+}
+@media(max-width:400px){
+    .shop__row{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-left:40px;
+    } 
+    .shop__column{
+        margin-left: 70px;
+    }
+    .shop__title{
+        margin-left: 10px;
+        margin-right: 10px;
+    }  
+}
+@media(max-width:340px){
+    .shop__column{
+        margin-right: 290px;
+        margin-left: 200px;
+    }
+    .shop__row{
+        margin-left:100px;
+    }  
+}
+@media(max-width:320px){
+    .shop__column{
+        margin-right: 290px;
+        margin-left: 160px;
+    }
+    .shop__row{
+        margin-left:100px;
+    }  
+}
+      
+    
+
